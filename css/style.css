@@ -29,6 +29,11 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .text {
   font-size: 15px;
   line-height: 25px;
@@ -40,19 +45,59 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
-.link {
+.button {
   background-color: #ff7a59;
-  width: 200px;
   border-radius: 5px;
   text-align: center;
+  color: white;
 }
 
 /* END COMMON SETTINGS, FONT AND UTILY CLASSES */
 
 /* STYLE */
+
+/* navbar heading */
+header nav ul li {
+  display: inline-block;
+  padding-right:15px;
+}
+
+header nav a {
+  color: #33475b;
+}
+
+header .navbar {
+  line-height: 80px;
+}
+
+header .navbar:first-child {
+  background-color: #f4f9fd;
+  border-bottom: 2px solid #33475b;
+}
+
+header .lens img {
+  height: 25px;
+  position: relative;
+  top: 5px;
+}
+
+
+header .button.login {
+  color: #ff7a59;
+  border: 2px solid #ff7a59;
+  background-color: transparent;
+  width: 80px;
+  line-height: 30px;
+}
+
+header .button.hubspot {
+  width: 150px;
+  line-height: 34px;
+}
+
+/* jumbotron */
 .jumbotron {
   background-image: url(../img/jumbotron.png);
   background-size: cover;
@@ -69,7 +114,7 @@ a {
   padding: 15px 0;
 }
 
-.jumbotron h1 {
-  font-size: 40px;
-  font-weight: 700;
+.jumbotron .button.hubspot {
+  width: 200px;
+  margin: 20px 0;
 }
