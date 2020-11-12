@@ -213,3 +213,22 @@ header .button.hubspot {
 .section2 .feature span {
   padding-right: 30px;
 }
+
+/* section3 */
+.section3 .box-container {
+  width: 100%;
+}
+
+.section3 .block {
+  width: 33.3%;
+  height: 800px;
+  border: 1px solid black;
+  padding: 50px;
+}
+
+.section3 .box {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  margin: 0 auto;
+}
