@@ -222,8 +222,20 @@ header .button.hubspot {
 .section3 .block {
   width: 33.3%;
   height: 800px;
-  border: 1px solid black;
-  padding: 50px;
+  padding: 40px 0;
+}
+
+.section3 .block:nth-child(1) {
+ padding-right: 40px;
+}
+
+.section3 .block:nth-child(2) {
+  padding-left: 20px;
+ padding-right: 20px;
+}
+
+.section3 .block:nth-child(3) {
+ padding-left: 40px;
 }
 
 .section3 .box {
