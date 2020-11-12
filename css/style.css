@@ -46,6 +46,16 @@ h2 {
   font-size: 30px;
 }
 
+h3 {
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 .text {
   font-size: 15px;
   line-height: 25px;
@@ -68,6 +78,22 @@ a {
   color: white;
 }
 
+.button.learnmore {
+  width: 150px;
+  line-height: 50px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.box {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 2px #d0d4d8;
+}
+
+img {
+  height: 100%;
+}
 /* END COMMON SETTINGS, FONT AND UTILY CLASSES */
 
 /* STYLE */
@@ -109,6 +135,7 @@ header .button.login {
 header .button.hubspot {
   width: 150px;
   line-height: 34px;
+  display: inline-block;
 }
 
 /* jumbotron */
@@ -127,6 +154,7 @@ header .button.hubspot {
 .jumbotron .button.hubspot {
   width: 200px;
   margin: 20px 0;
+  line-height: 50px;
 }
 
 /* section1 */
@@ -141,6 +169,25 @@ header .button.hubspot {
   height: 200px;
 }
 
-.section1 img {
-  height: 100%;
+/* section2 */
+.section2 .box {
+  width: 100%;
+  height: 400px;
+}
+
+.section2 .box-left {
+  width: 35%;
+  padding: 50px;
+  text-align: center;
+}
+
+.section2 .box-image {
+  height: 120px;
+}
+
+.section2 .box-right {
+  width: 65%;
+  height: 200px;
+  text-align: left;
+  padding: 50px 50px 50px 0;
 }
