@@ -1,0 +1,75 @@
+/* COMMON SETTINGS, FONT AND UTILITY CLASSES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #33475b;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  background-color: #ff7a59;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* END COMMON SETTINGS, FONT AND UTILY CLASSES */
+
+/* STYLE */
+.jumbotron {
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+}
+
+.jumbotron-box {
+  width: 40%;
+  padding-top: 50px;
+}
+
+.jumbotron-box * {
+  padding: 15px 0;
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
