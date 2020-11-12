@@ -29,18 +29,32 @@ body {
   margin: 0 auto;
 }
 
+header, main, footer {
+  min-width: 1200px;
+}
+
+main {
+  background-color: #f4f9fd;
+}
+
 h1 {
   font-size: 40px;
   font-weight: 700;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 .text {
   font-size: 15px;
   line-height: 25px;
+  padding: 15px 0;
 }
 
 .small-text {
   font-size: 12px;
+  padding: 15px 0;
 }
 
 a {
@@ -110,11 +124,23 @@ header .button.hubspot {
   padding-top: 50px;
 }
 
-.jumbotron-box * {
-  padding: 15px 0;
-}
-
 .jumbotron .button.hubspot {
   width: 200px;
   margin: 20px 0;
+}
+
+/* section1 */
+.section1 .content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.section1 .content-image {
+  height: 200px;
+}
+
+.section1 img {
+  height: 100%;
 }
