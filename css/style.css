@@ -86,6 +86,13 @@ a {
   display: inline-block;
 }
 
+.button.hubspot {
+  width: 200px;
+  margin: 20px 0;
+  line-height: 60px;
+  display: inline-block;
+}
+
 .box {
   background-color: white;
   border-radius: 5px;
@@ -133,10 +140,9 @@ header .button.login {
   line-height: 30px;
 }
 
-header .button.hubspot {
+nav .button.hubspot {
   width: 150px;
   line-height: 34px;
-  display: inline-block;
 }
 
 header .logo {
@@ -158,12 +164,6 @@ header .logo {
 .jumbotron-box {
   width: 40%;
   padding-top: 50px;
-}
-
-.jumbotron .button.hubspot {
-  width: 200px;
-  margin: 20px 0;
-  line-height: 50px;
 }
 
 .jumbotron::before {
@@ -341,4 +341,28 @@ header .logo {
   font-size: 35px;
   font-weight: 700;
   padding-top: 15px;
+}
+
+/* section6 */
+.section6 {
+  background-color: white;
+}
+
+.section6 .box-left {
+  width: 50%;
+  text-align: left;
+  padding: 50px 80px 0 0;
+}
+
+/* .section6 .button.hubspot {
+  padding: 20px;
+}
+ */
+.section6 .box-right {
+  width: 50%;
+  text-align: right;
+}
+
+.section6 .image {
+  height: 400px;
 }
