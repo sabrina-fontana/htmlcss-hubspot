@@ -283,7 +283,6 @@ header .logo {
 
 /* section4 */
 .section4 {
-  height: 500px;
   width: 100%;
   background-image: linear-gradient(to right, #00a9b9 , #00bba7);
 }
@@ -292,4 +291,54 @@ header .logo {
   text-align: center;
   color: white;
   padding: 40px 0;
+}
+
+.section4 .row {
+  padding: 40px 0;
+}
+
+.section4 .row-box {
+  width: 25%;
+}
+
+.section4 .row-box:first-child {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.section4 .row-box:nth-child(2) {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.section4 .row-box:nth-child(3) {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.section4 .row-box:nth-child(4) {
+  border-bottom: 1px solid white;
+}
+
+.section4 .row-box:nth-child(5) {
+  border-right: 1px solid white;
+}
+
+.section4 .row-box:nth-child(6) {
+  border-right: 1px solid white;
+}
+
+.section4 .row-box:nth-child(7) {
+  border-right: 1px solid white;
+}
+
+.section4 .image {
+  height: 33px;
+  margin-top: 15px;
+}
+
+.section4 .title {
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 15px;
 }
