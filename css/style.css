@@ -154,7 +154,6 @@ header .logo {
 /* jumbotron */
 .jumbotron {
   background-image: url(../img/jumbotron.png);
-  /* background-size: cover; */
   background-repeat: no-repeat;
   background-color: #fff4ef;
   background-position: bottom right;
@@ -180,34 +179,31 @@ header .logo {
 }
 
 /* section1 */
-.section1 .content {
+.section1 {
   width: 50%;
   margin: 0 auto;
   text-align: center;
   padding: 40px 0;
 }
 
-.section1 .content-image {
+.section1 .image {
   height: 200px;
 }
 
 /* section2 */
-.section2 .box {
-  width: 100%;
-}
-
-.section2 .box-left {
+.section2 .block-left {
   width: 35%;
   text-align: center;
 }
 
-.section2 .box-image {
+.section2 .image {
   height: 120px;
 }
 
-.section2 .box-right {
+.section2 .block-right {
   width: 65%;
   text-align: left;
+  padding-right: 60px;
 }
 
 .section2 h4::after {
@@ -217,10 +213,10 @@ header .logo {
   height: 2.5px;
   width: 450px;
   vertical-align: middle;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
-.section2 .check, .section3 .check {
+.check {
   height: 20px;
   vertical-align: middle;
   padding: 0 8px;
@@ -235,21 +231,21 @@ header .logo {
 }
 
 /* section3 */
-.section3 .block {
+.section3 .column {
   width: 33.3%;
   padding: 40px 0;
 }
 
-.section3 .block:nth-child(1) {
+.section3 .column:nth-child(1) {
  padding-right: 40px;
 }
 
-.section3 .block:nth-child(2) {
+.section3 .column:nth-child(2) {
   padding-left: 20px;
  padding-right: 20px;
 }
 
-.section3 .block:nth-child(3) {
+.section3 .column:nth-child(3) {
  padding-left: 40px;
 }
 
@@ -260,7 +256,7 @@ header .logo {
   text-align: center;
 }
 
-.section3 .box-image {
+.section3 .image {
   height: 120px;
 }
 
@@ -353,7 +349,7 @@ header .logo {
   padding-top: 30px;
 }
 
-.section5 .box-left {
+.section5 .block-left {
   width: 30%;
   padding: 0 80px;
   text-align: left;
@@ -363,7 +359,7 @@ header .logo {
   font-size: 40px;
 }
 
-.section5 .box-right {
+.section5 .block-right {
   width: 70%;
   padding: 40px 100px;
 }
@@ -394,13 +390,13 @@ header .logo {
   padding-bottom: 60px;
 }
 
-.section6 .box-left {
+.section6 .block-left {
   width: 50%;
   text-align: left;
   padding: 50px 80px 0 0;
 }
 
-.section6 .box-right {
+.section6 .block-right {
   width: 50%;
   text-align: right;
 }
