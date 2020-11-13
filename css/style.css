@@ -79,8 +79,8 @@ a {
 }
 
 .button.learnmore {
-  width: 150px;
-  line-height: 50px;
+  width: 180px;
+  line-height: 60px;
   margin: 20px 0;
   display: inline-block;
 }
@@ -204,7 +204,7 @@ header .logo {
   margin-left: 40px;
 }
 
-.section2 .box-right img {
+.section2 .check, .section3 .check {
   height: 20px;
   vertical-align: middle;
   padding: 0 8px;
@@ -222,7 +222,6 @@ header .logo {
 
 .section3 .block {
   width: 33.3%;
-  height: 800px;
   padding: 40px 0;
 }
 
@@ -248,4 +247,22 @@ header .logo {
 
 .section3 .box-image {
   height: 120px;
+}
+
+.section3 h3 {
+  padding-top: 20px;
+}
+
+.section3 .text::after {
+  background-color: #9a9da0;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 260px;
+  margin: 60px 0 30px 0;
+}
+
+.section3 .check-list {
+  text-align: left;
+  padding: 30px 0;
 }
