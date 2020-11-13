@@ -365,6 +365,7 @@ header .logo {
 
 .section5 .box-right {
   width: 70%;
+  padding: 40px 100px;
 }
 
 .section5 .row-box {
@@ -373,7 +374,7 @@ header .logo {
 }
 
 .section5 .image {
-  height: 80px;
+  height: 70px;
 }
 
 .section5 img {
