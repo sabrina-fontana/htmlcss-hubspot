@@ -103,6 +103,7 @@ a {
 img {
   height: 100%;
 }
+
 /* END COMMON SETTINGS, FONT AND UTILY CLASSES */
 
 /* STYLE */
@@ -343,6 +344,46 @@ header .logo {
   padding-top: 15px;
 }
 
+/* section5 */
+.section5 {
+  background-color: white;
+}
+
+.section5 .container {
+  padding-top: 30px;
+}
+
+.section5 .box-left {
+  width: 30%;
+  padding: 0 80px;
+  text-align: left;
+}
+
+.section5 h2 {
+  font-size: 40px;
+}
+
+.section5 .box-right {
+  width: 70%;
+}
+
+.section5 .row-box {
+  width: 25%;
+  text-align: center;
+}
+
+.section5 .image {
+  height: 80px;
+}
+
+.section5 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 10px;
+
+}
+
 /* section6 */
 .section6 {
   background-color: white;
@@ -354,10 +395,6 @@ header .logo {
   padding: 50px 80px 0 0;
 }
 
-/* .section6 .button.hubspot {
-  padding: 20px;
-}
- */
 .section6 .box-right {
   width: 50%;
   text-align: right;
