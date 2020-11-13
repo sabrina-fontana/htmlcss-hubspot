@@ -44,6 +44,7 @@ h1 {
 
 h2 {
   font-size: 30px;
+  padding: 20px 0;
 }
 
 h3 {
@@ -89,7 +90,7 @@ a {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 3px 2px #d0d4d8;
-  padding: 50px;
+  padding: 20px;
 }
 
 img {
@@ -124,7 +125,6 @@ header .lens img {
   top: 5px;
 }
 
-
 header .button.login {
   color: #ff7a59;
   border: 2px solid #ff7a59;
@@ -147,9 +147,12 @@ header .logo {
 /* jumbotron */
 .jumbotron {
   background-image: url(../img/jumbotron.png);
-  background-size: cover;
-  background-position: bottom;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-color: #fff4ef;
+  background-position: bottom right;
   height: 600px;
+  position: relative;
 }
 
 .jumbotron-box {
@@ -161,6 +164,18 @@ header .logo {
   width: 200px;
   margin: 20px 0;
   line-height: 50px;
+}
+
+.jumbotron::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: #afebe4;
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
 }
 
 /* section1 */
@@ -198,7 +213,7 @@ header .logo {
   background-color: #9a9da0;
   content: '';
   display: inline-block;
-  height: 2px;
+  height: 2.5px;
   width: 450px;
   vertical-align: middle;
   margin-left: 40px;
@@ -219,7 +234,6 @@ header .logo {
 }
 
 /* section3 */
-
 .section3 .block {
   width: 33.3%;
   padding: 40px 0;
@@ -257,12 +271,25 @@ header .logo {
   background-color: #9a9da0;
   content: '';
   display: block;
-  height: 2px;
-  width: 260px;
-  margin: 60px 0 30px 0;
+  height: 2.5px;
+  width: 80%;
+  margin: 60px auto 30px auto;
 }
 
 .section3 .check-list {
   text-align: left;
   padding: 30px 0;
+}
+
+/* section4 */
+.section4 {
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(to right, #00a9b9 , #00bba7);
+}
+
+.section4 .container {
+  text-align: center;
+  color: white;
+  padding: 40px 0;
 }
