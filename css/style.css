@@ -390,6 +390,10 @@ header .logo {
   background-color: white;
 }
 
+.section6 .container {
+  padding-bottom: 60px;
+}
+
 .section6 .box-left {
   width: 50%;
   text-align: left;
@@ -403,4 +407,29 @@ header .logo {
 
 .section6 .image {
   height: 400px;
+}
+
+/* footer */
+footer {
+  background-color: #32495b;
+  color: #f4f9fd;
+  font-size: 14px;
+}
+
+footer .container {
+  height: 500px;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+footer ul {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+footer a {
+  color: white;
 }
