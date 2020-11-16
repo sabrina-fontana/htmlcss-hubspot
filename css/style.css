@@ -170,16 +170,35 @@ header nav li:hover ul {
   border: 1px solid #33475b;
   background: white;
   line-height: 36px;
+  font-size: 14px;
 }
 
 
-header nav:first-child li:hover ul {
-  position: absolute;
+header li:hover .languages-menu {
   top: 60px;
+}
+
+header li:hover .resources-menu {
+  right: 60px;
+}
+
+header ul .clearfix {
+  width: 500px;
+}
+
+header ul .column.fl {
+  width: 50%;
+  padding: 10px;
 }
 
 header ul .menu-title {
   padding: 5px 0;
+  font-size: 16px;
+}
+
+
+header ul .column:first-child {
+  border-right: 1px solid rgba(51, 71, 91, 0.5);
 }
 
 /* jumbotron */
