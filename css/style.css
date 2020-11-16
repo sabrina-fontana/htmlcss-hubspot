@@ -72,9 +72,10 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.button:hover, li:hover > a, div > a:hover {
   font-weight: 700;
 }
+
 
 .button {
   background-color: #ff7a59;
@@ -120,9 +121,7 @@ header nav a {
 }
 
 header .navbar {
-  height: 80px;
-  line-height: 40px;
-  padding: 20px 0;
+  line-height: 80px;
 }
 
 header .navbar:first-child {
@@ -134,11 +133,6 @@ header .lens img {
   height: 25px;
   position: relative;
   top: 8px;
-}
-
-header nav:first-child ul.fr {
-  position: relative;
-  bottom: 18px;
 }
 
 header .button.login {
@@ -170,11 +164,22 @@ header nav li ul {
 header nav li:hover ul {
   display: block;
   position: absolute;
+  top: 140px;
   z-index: 1;
   margin: 0 10px;
   border: 1px solid #33475b;
   background: white;
-  line-height: 40px;
+  line-height: 36px;
+}
+
+
+header nav:first-child li:hover ul {
+  position: absolute;
+  top: 60px;
+}
+
+header ul .menu-title {
+  padding: 5px 0;
 }
 
 /* jumbotron */
@@ -322,8 +327,10 @@ header nav li:hover ul {
 
 .section4 .title.plus::after {
   content: "+";
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 500;
+  position: relative;
+  bottom: 4px;
 }
 
 /* invece di nth:child è meglio dare una classe apposita */
