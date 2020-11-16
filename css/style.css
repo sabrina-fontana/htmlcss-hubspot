@@ -106,9 +106,9 @@ img {
 /* STYLE */
 
 /* navbar heading */
-header nav ul li {
+header nav li {
   display: inline-block;
-  padding-right:15px;
+  padding: 0 10px;
 }
 
 header nav a {
@@ -146,6 +146,28 @@ nav .button.hubspot {
 header .logo {
   position: relative;
   top: 10px;
+}
+
+header nav li ul {
+  display: none;
+}
+
+header nav ul li ul li {
+  display: block;
+}
+
+header nav li:hover ul {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  margin: 0 10px;
+  border: 1px solid #33475b;
+  background: white;
+  line-height: 40px;
+}
+
+header ul li:hover {
+  background: #d5dee5;
 }
 
 /* jumbotron */
