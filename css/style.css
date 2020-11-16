@@ -72,6 +72,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  font-weight: 700;
+}
+
 .button {
   background-color: #ff7a59;
   border-radius: 5px;
@@ -116,7 +120,9 @@ header nav a {
 }
 
 header .navbar {
-  line-height: 80px;
+  height: 80px;
+  line-height: 40px;
+  padding: 20px 0;
 }
 
 header .navbar:first-child {
@@ -130,17 +136,22 @@ header .lens img {
   top: 8px;
 }
 
+header nav:first-child ul.fr {
+  position: relative;
+  bottom: 18px;
+}
+
 header .button.login {
   color: #ff7a59;
   border: 2px solid #ff7a59;
   background-color: transparent;
   width: 80px;
-  line-height: 30px;
+  line-height: 32px;
 }
 
 nav .button.hubspot {
   width: 150px;
-  line-height: 34px;
+  line-height: 36px;
 }
 
 header .logo {
@@ -148,12 +159,12 @@ header .logo {
   top: 10px;
 }
 
-header nav li ul {
-  display: none;
-}
-
 header nav ul li ul li {
   display: block;
+}
+
+header nav li ul {
+  display: none;
 }
 
 header nav li:hover ul {
@@ -164,10 +175,6 @@ header nav li:hover ul {
   border: 1px solid #33475b;
   background: white;
   line-height: 40px;
-}
-
-header ul li:hover {
-  background: #d5dee5;
 }
 
 /* jumbotron */
@@ -435,9 +442,8 @@ footer {
 
 .support-button {
   display: inline-block;
-  width: 180px;
+  width: 200px;
   padding: 5px 0;
-  margin-top: 10px;
   background-color: #f4f9fd;
   color: #32495b;
   font-size: 13px;
