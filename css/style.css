@@ -192,14 +192,14 @@ header ul .column.fl {
 }
 
 header ul .menu-title {
-  padding: 5px 0;
+  padding: 6px 0;
   font-size: 16px;
 }
 
 
-header ul .column:first-child {
+/* header ul .column:first-child {
   border-right: 1px solid rgba(51, 71, 91, 0.5);
-}
+} */
 
 /* jumbotron */
 .jumbotron {
